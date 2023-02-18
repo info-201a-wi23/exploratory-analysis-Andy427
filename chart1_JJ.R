@@ -25,6 +25,9 @@ ggplot(data = fatailites_by_year, aes(x = crash_years, y = Total_fatalities, gro
   theme(axis.text.x = element_text(angle = 90)) +
   scale_x_discrete(breaks = seq(1908, 2009, 5)) +
   scale_y_continuous(breaks = seq(0, 3000, 500))
-  
 
-  
+highest_fatality <- fatailites_by_year %>% filter(Total_fatalities == max(Total_fatalities))
+highest_fatality
+
+highest_fatality_year <- data %>% filter(crash_years == highest_fatality$crash_years)
+highest_fatality_year

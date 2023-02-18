@@ -62,13 +62,17 @@ Describe why you included the table and what information it reveals
 
 ### Chart 1
 
-Include a chart
+Total fatalities from year 1908 to 2009
 
 Describe why you chose this chart and what information it reveals
 
-Here's an example of how to run an R script inside an RMarkdown file:
+I chose to present this chart because I wanted to look at the data of total fatalities
+from all the years the dataset provides. See which year had the highest fatality rate.
 
-``````{r, echo = FALSE, code = readLines("chart1_example.R")}
+I found out that the highest fatalities during this timeframe was during 1972.
+Total fatality count of 2937.
+
+``````{r, echo = FALSE, code = readLines("chart1_JJ.R")}
 ```
 
 ### Chart 2
