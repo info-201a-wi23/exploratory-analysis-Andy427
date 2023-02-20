@@ -12,12 +12,11 @@ summary_info$max_fatalities <- crashes_df %>%
   summarise(Fatalities = max(Fatalities, na.rm = T)) %>% pull(Fatalities)
 summary_info$avg_fatalities <- crashes_df %>%
   summarise(Fatalities = mean(Fatalities, na.rm = T)) %>% pull(Fatalities)
-summary_info$most_common_operators <- crashes_df %>%
-  filter(Operator == max(Operator, na.rm = T)) %>%
+summary_info$avg_fatality_rate <- crashes_df %>% summarise(avg_fatality_rate = sum(Fatalities, na.rm = T)/sum(Aboard, na.rm = T)) %>% pull(avg_fatality_rate)
+summary_info$unqiue_operators <- crashes_df %>%
+  summarise(Operator = n_distinct(Operator, na.rm = T)) %>%
   pull(Operator)
-summary_info$most_common_type <- crashes_df %>%
-  filter(Type == max(Type, na.rm = T)) %>%
-  pull(Type)
+
 
 # Creates a table of the top 10 fatalities and the type of airplane it occurred in.
 table <- crashes_df %>% group_by(Type, Fatalities) %>% summarise(Fatalities = max(Fatalities)) %>% arrange(desc(Fatalities)) %>% head(10)
