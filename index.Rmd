@@ -54,11 +54,37 @@ What challenges or limitations might you need to address with your project idea 
 
 Write a summary paragraph of findings that includes the 5 values calculated from your summary information R script
 
+From the summary findings, we were able to determine five different factors. We were able to determine that there have been 5268 crashes since 1908. 
+After that, we were able to determine that the maximum fatalities that occurred in a crash was 583 fatalities. 
+We also deteremined the average fatality per crash is 20 people, the fatality rate of these crashes is 72.97%.
+Finally, there were 2477 unique airplane operators.
+
 ### Table
 
 Include a table of aggregate information
 
+|Type                                 | Fatalities|
+|:------------------------------------|----------:|
+|Boeing B-747-121 / Boeing B-747-206B |        583|
+|Boeing B-747-SR46                    |        520|
+|Boeing B-747-168B / Ilyushin IL-76TD |        349|
+|McDonnell Douglas DC-10-10           |        346|
+|Boeing B-747-237B                    |        329|
+|Lockheed 1011-200 TriStar            |        301|
+|Airbus A300B2-203                    |        290|
+|Ilyushin Il-76MD                     |        275|
+|McDonnell Douglas DC-10-10           |        271|
+|Boeing B-747-230B                    |        269|
+
 Describe why you included the table and what information it reveals
+
+We included this table because we wanted to find the ten most fatal aircraft crashes. 
+Then, from there, we wanted to find the aircrafts that they occured in.
+I chose this specifically because I wanted to build upon information from our second chart while also approaching it from a different perspective.
+From this, we can see that variations of the Boeing B-747 make up the top three most fatal crashes.
+We can also see that of the 10 most fatal crashes, variations of the Boeing B-747 make up 5 of them. 
+I think the information revealed here is interesting because the information in Chart 2 shows that the Douglas DC-3 resulted in the most deaths.
+Yet the Douglas DC-3 isn't within the top 10 most fatal crashes.
 
 ### Chart 1
 
