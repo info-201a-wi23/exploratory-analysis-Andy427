@@ -77,9 +77,16 @@ Total fatality count of 2937.
 
 ### Chart 2
 
-Include a chart
+Top 20 Aircraft Makes with the most Deaths & Top 20 Aircraft Types with the most Deaths
 
 Describe why you chose this chart and what information it reveals
+
+I chose to put together these charts because I thought that it would be interesting to see what aircraft Makes resulted in the most deaths, as well as which specific make resulted in the most deaths.
+
+I was able to find that Boeing has the most deaths of all Aircraft makes. Though the Aircraft type resulting in the most deaths the Douglas DC-3, is not produced by Boeing... which I found particularly interesting.
+
+``````{r, echo = FALSE, code = readLines("chart2_NoahK.R")}
+```
 
 ### Chart 3
 
