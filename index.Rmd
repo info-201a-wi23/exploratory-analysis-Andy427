@@ -3,52 +3,54 @@ title: "Exploratory Analysis"
 output: html_document
 ---
 
-## Project title
+## Aviation Crashes from 1908 to 2023
 
 Give your project a concise, interesting title that summarizes the entirety of your project
 
 ### Authors
 
-Names of your team members
+-Andy Ma, Noah Karst, Josephine Yen, JJ Cai
 
-### Date
+### Date: 2-20-2023
 
-Winter 2022
+-Winter 2023
 
 ### Abstract
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., because .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+-Our main question is what are the common trends in aircraft crashes and what preventative measures could be put in place to prevent them, this is important because, even though aircraft crashes are rare, the times they do occur have high fatality rates. To answer this question we will look at different trends in aircraft crashes and determine common ones, then we will look at how they can be prevented. One concern is with the dataset itself as it is from 1908 to the present, leaving room for confounding factors like aircraft models that are no longer used, and to address this, we will tidy up the data and determine a proper cutoff point in which the information is relevant to the questions we are asking.
 
 ### Keywords
 
-3-5 keywords that summarize your project.
-(e.g., "Keywords: human physiology; bicycle exercise; Gen Z; times-series data")
+Keywords: Airplane Crashes; Historical Data; Trends.
 
 ### Introduction  
 
-Briefly introduce your project.  Include 3-5 research questions. What motivates the questions? Why are they important? (at least 200 words)
+-In our project, we are looking at the historical trends of airplane crashes from 1908 to present day. The goal for our project is to look for different trends and patterns in aircraft crashes and to see if there are any common themes between those patterns. Once those patterns are established, we want to take a deeper look and see if there are any preventative measures that could combat these trends.
+
+-In order to do so, we are looking to answer a few different questions. The first question we are looking to answer is: What year or timeframe had the most amount of fatalitites from aircraft crashes? The second question is: What type and make of aircraft has the most recorded crashes? The third question that we are researching is: Where do aircraft crash the most location wise?
+
+-The motivation behind these questions are simple, these questions are asked in order to further establish trends in which we can examine them further and potentially determine preventative measures and increase knowledge on aircraft crashes. With how long the timeframe of the data spans, we wanted to narrow down the questions to provide the most relevant data for us to examine. We determined that these questions were important because of how they interacted with each other and the roles they play in aircraft crashes.
 
 ### Related Work  
 
-Describe your topic and related work in this space. You must include 3 citations to related work (URLs to similar work, high quality articles from the popular press, research papers, etc. ) Please use a standard citation style of your choice. (at least 200 words)
+By examining our dataset we will be able to answer our research questions as listed, and learn much more. In using a public dataset we can assume that others have done the same; filtered, extracted, and examined the data to answer questions of their own. Taking a look at related works we found a website “airsafe.com,” intended to inform the general public about airline safety and aircraft fatality statistics (2021). The website has a ranking of airline models fatality rates meaning the statistics included on the site are only crashes that resulted in a death which we thought was interesting.
+
+Another work we decided to look at was an Injury Attorney Firm page. The firm: “AI” has a list ranking the most common causes of Aviation accidents, a list we may confirm through examining our selected dataset (n.d.). It is compelling to see who this data affects. As researchers it is important to think about who may see the end results to our research questions.
+
+The last related work we looked at was an Injury Information non-profit “NSC”. On their website they had a page dedicated to Airplane Crashes (2020). On this page they included an interactive map. The map displays all crashes that were fatal and not fatal, as well as a variety of Air Carrier Categories including “On-Demand Air Taxis” which we thought was fascinating.
+
+Please see the end of the proposal for references page of citations.
 
 ### The Dataset
 
-Where did you find the data? Please include a link to the data source  
-Who collected the data?  
-How was the data collected or generated?  
-Why was the data collected?  
-How many observations (rows) are in your data?  
-How many features (columns) are in the data?  
-What, if any, ethical questions or questions of power do you need to consider when working with this data?  
-What are possible limitations or problems with this data?   (at least 200 words)
+The data was found off of Kaggle: Historical Plane Crash Data | Kaggle. The data was collected by Abe Ceasar Perez, and he got the data from the Bureau of Aircraft Accidents Archives (Accident Archives | Bureau of Aircraft Accidents Archives (baaa-acro.com)). Perez collected the data from extraction by web scraping methods using R along with preprocessed data to create the dataset in kaggle. The data was collected for informative purposes, to answer questions about trends in airplane crashes, how to address the crashes, and data for predictive methods on future crashes. There are 28536 observations (rows) in the data and there are 48 features (columns) in the data. The ethical questions or questions of power I need to consider when working with this data is if there are any biases in collecting, extracting, or recording of the data. In addition, another question to note is what demographic of people from the Bureau of Aircraft Accidents Archives have collected the data, are they in positions of power or privilege. Another thing to note is the credentials of both Perez and Bureau of Aircraft Accidents Archives. Possible limitations or problems with this data include the fact Perez mentioned that there are some encoding issues such as the location of the crash in certain columns as the dataset was extracted within excel format and not csv format. Further, there is no data on types of weather during each flight crash, but only in the causes column mentioning weather in general as a cause, not specifics.
 
 ### Implications
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (at least 150 words)
+There are already some implications that can go into why an airplane can crash. Research has shown that 49% of plane crashes occur when descending and landing (Tang, 2020). But we can also assume that most of the crashes can be also caused by human error. Human error can be found in the makes of the aircraft, the procedures that were done incorrectly, or just in general a stroke of bad luck to cause some malfunctioning error. This can be seen from technologists that the radar altimeters from the airplanes can be affected by the 5G signal emitted which is being produced from the network towers. Also, this can be one answer as to why some crashes happen due to the signals being disturbed causing the pilot to be unable to grasp where they are landing. The implications for designers is that they can determine design errors within various aircraft models, maybe mistakes within calculations and structural design issues that are not safe. Policymakers might create stronger policies that surround the decisions of how airplanes are designed, research into aircraft safety, and testing procedures before releasing them to the public for travel.
 
 ### Limitations & Challenges
-What challenges or limitations might you need to address with your project idea more broadly? Briefly discuss. (at least 150 words)
+There will be some challenges that will arise within our project idea that will need to be addressed more broadly. The dataset might not be able to achieve an evidence-based and high-level researched strategy in reducing airplane crashes. Being able to create an informative data project in under five weeks and having it create a strong impact on a global scale will be difficult. The project will only scratch the surface in finding trends of airplane crashes. Another limitation is the fact that we do not know how the aircraft models have been updated in the following years or precise changes aircraft companies made within their planes. This means that it will be hard to find trends in any improvements between old and new aircrafts in order to add to our aircraft trends analysis. Further, the identification of the causes of the aircraft crashes may not be accurate or have multiple causes such as manufacturing defects paired with turbulent weather conditions. Thus, our data analysis in our project in specific causes could be limited in not understanding the entire scope of an aircraft crash.
 
 ### Summary Information
 
@@ -98,7 +100,7 @@ from all the years the dataset provides. See which year had the highest fatality
 I found out that the highest fatalities during this timeframe was during 1972.
 Total fatality count of 2937.
 
-``````{r, echo = FALSE, code = readLines("chart1_JJ.R")}
+```{r, echo = FALSE, code = readLines("chart1_JJ.R")}
 ```
 
 ### Chart 2
@@ -111,11 +113,22 @@ I chose to put together these charts because I thought that it would be interest
 
 I was able to find that Boeing has the most deaths of all Aircraft makes. Though the Aircraft type resulting in the most deaths the Douglas DC-3, is not produced by Boeing... which I found particularly interesting.
 
-``````{r, echo = FALSE, code = readLines("chart2_NoahK.R")}
+```{r, echo = FALSE, code = readLines("chart2_NoahK.R")}
 ```
 
 ### Chart 3
 
-Include a chart
+Top 40 Countries of Aviation Crashes Based on Frequency
 
-Describe why you chose this chart and what information it reveals
+I chose to put together this treemap because I thought it would be facinating to look at the various locations that had the most frequent aviation crashses. 
+
+I was able to find that the United States had the greatest freuqency for the country where crashes occured. I had to narrow down the data to look at the top 40 countries because fitting around a hundred countries within the treemap would be too cramped with data and hard to view from the audience's perspective. 
+
+```{r, echo = FALSE, code = readLines("treechart_josephine.R")}
+```
+
+### Refrences
+AirSafe LLC. (2021, January 13). Plane Crash Rates By Model. AirSafe. Retrieved February 3, 2023, from http://www.airsafe.com/events/models/rate_mod.htm
+Houston Personal Injury Attorney. (n.d.). Most Common Causes of Aviation Crashes. Arnold & Itkin Trial Lawyers. Retrieved February 3, 2023, from https://www.arnolditkin.com/blog/injury/most-common-causes-of-aviation-accidents/
+National Safety Council. (2022, August 1). Home & Community Safety: Airplane crashes. Injury Facts NSC. Retrieved February 3, 2023, from https://injuryfacts.nsc.org/home-and-community/safety-topics/airplane-crashes/
+Tang, A. (2020, October 31). Why airplane takeoffs and landings are so dangerous. Retrieved February 3, 2023, from https://www.businessinsider.com/why-airplane-takeoff-landing-are-dangerous-flight-2019-12
