@@ -1,7 +1,7 @@
 library("ggplot2")
 library("dplyr")
 
-data = read.csv("C:\\Users\\14254\\OneDrive\\Desktop\\info201\\exploratory-analysis-Andy427\\Airplane_Crashes_and_Fatalities_Since_1908.csv",
+data = read.csv("Airplane_Crashes_and_Fatalities_Since_1908.csv",
                 stringsAsFactors = FALSE)
 
 
@@ -28,7 +28,6 @@ ggplot(data = fatailites_by_year, aes(x = crash_years, y = Total_fatalities, gro
   scale_y_continuous(breaks = seq(0, 3000, 500))
 
 highest_fatality <- fatailites_by_year %>% filter(Total_fatalities == max(Total_fatalities))
-highest_fatality
 
 highest_fatality_year <- data %>% filter(crash_years == highest_fatality$crash_years)
-highest_fatality_year
+

@@ -5,7 +5,6 @@ output: html_document
 
 ## Aviation Crashes from 1908 to 2023
 
-Give your project a concise, interesting title that summarizes the entirety of your project
 
 ### Authors
 
@@ -90,41 +89,39 @@ Yet the Douglas DC-3 isn't within the top 10 most fatal crashes.
 
 ### Chart 1
 
-Total fatalities from year 1908 to 2009
+Total fatalities from year 1908 to 2009:
 
-Describe why you chose this chart and what information it reveals
+We chose to present this chart because we wanted to look at the data of total fatalities
+from all the years the dataset provides. 
+See which year had the highest fatality rate.
 
-I chose to present this chart because I wanted to look at the data of total fatalities
-from all the years the dataset provides. See which year had the highest fatality rate.
-
-I found out that the highest fatalities during this timeframe was during 1972.
+We found out that the highest fatalities during this timeframe was during 1972.
 Total fatality count of 2937.
 
-```{r, echo = FALSE, code = readLines("chart1_JJ.R")}
+```{r, echo = FALSE, results='hide', warning=FALSE, message=FALSE, code = readLines("chart1_JJ.R")}
+
 ```
 
 ### Chart 2
 
 Top 20 Aircraft Makes with the most Deaths & Top 20 Aircraft Types with the most Deaths
 
-Describe why you chose this chart and what information it reveals
-
 I chose to put together these charts because I thought that it would be interesting to see what aircraft Makes resulted in the most deaths, as well as which specific make resulted in the most deaths.
 
-I was able to find that Boeing has the most deaths of all Aircraft makes. Though the Aircraft type resulting in the most deaths the Douglas DC-3, is not produced by Boeing... which I found particularly interesting.
+I was able to find that Boeing has the most deaths of all Aircraft makes. Though the Aircraft type resulting in the most deaths the Douglas DC-3, is not produced by Boeing... which we found particularly interesting.
 
-```{r, echo = FALSE, code = readLines("chart2_NoahK.R")}
+```{r, echo = FALSE, results='hide', warning=FALSE, message=FALSE, code = readLines("chart2_NoahK.R")}
 ```
 
 ### Chart 3
 
 Top 40 Countries of Aviation Crashes Based on Frequency
 
-I chose to put together this treemap because I thought it would be facinating to look at the various locations that had the most frequent aviation crashses. 
+I chose to put together this treemap because I thought it would be fascinating to look at the various locations that had the most frequent aviation crashes. 
 
-I was able to find that the United States had the greatest freuqency for the country where crashes occured. I had to narrow down the data to look at the top 40 countries because fitting around a hundred countries within the treemap would be too cramped with data and hard to view from the audience's perspective. 
+I was able to find that the United States had the greatest frequency for the country where crashes occurred. I had to narrow down the data to look at the top 40 countries because fitting around a hundred countries within the treemap would be too cramped with data and hard to view from the audience's perspective. 
 
-```{r, echo = FALSE, code = readLines("treechart_josephine.R")}
+```{r, echo = FALSE, results='hide', warning=FALSE, message=FALSE, code = readLines("treechart_josephine.R")}
 ```
 
 ### Refrences
