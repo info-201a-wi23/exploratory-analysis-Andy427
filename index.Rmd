@@ -9,15 +9,15 @@ Give your project a concise, interesting title that summarizes the entirety of y
 
 ### Authors
 
--Andy Ma, Noah Karst, Josephine Yen, JJ Cai
+Andy Ma, Noah Karst, Josephine Yen, JJ Cai
 
 ### Date: 2-20-2023
 
--Winter 2023
+Winter 2023
 
 ### Abstract
 
--Our main question is what are the common trends in aircraft crashes and what preventative measures could be put in place to prevent them, this is important because, even though aircraft crashes are rare, the times they do occur have high fatality rates. To answer this question we will look at different trends in aircraft crashes and determine common ones, then we will look at how they can be prevented. One concern is with the dataset itself as it is from 1908 to the present, leaving room for confounding factors like aircraft models that are no longer used, and to address this, we will tidy up the data and determine a proper cutoff point in which the information is relevant to the questions we are asking.
+Our main question is what are the common trends in aircraft crashes and what preventative measures could be put in place to prevent them, this is important because, even though aircraft crashes are rare, the times they do occur have high fatality rates. To answer this question we will look at different trends in aircraft crashes and determine common ones, then we will look at how they can be prevented. One concern is with the dataset itself as it is from 1908 to the present, leaving room for confounding factors like aircraft models that are no longer used, and to address this, we will tidy up the data and determine a proper cutoff point in which the information is relevant to the questions we are asking.
 
 ### Keywords
 
@@ -25,11 +25,11 @@ Keywords: Airplane Crashes; Historical Data; Trends.
 
 ### Introduction  
 
--In our project, we are looking at the historical trends of airplane crashes from 1908 to present day. The goal for our project is to look for different trends and patterns in aircraft crashes and to see if there are any common themes between those patterns. Once those patterns are established, we want to take a deeper look and see if there are any preventative measures that could combat these trends.
+In our project, we are looking at the historical trends of airplane crashes from 1908 to present day. The goal for our project is to look for different trends and patterns in aircraft crashes and to see if there are any common themes between those patterns. Once those patterns are established, we want to take a deeper look and see if there are any preventative measures that could combat these trends.
 
--In order to do so, we are looking to answer a few different questions. The first question we are looking to answer is: What year or timeframe had the most amount of fatalitites from aircraft crashes? The second question is: What type and make of aircraft has the most recorded crashes? The third question that we are researching is: Where do aircraft crash the most location wise?
+In order to do so, we are looking to answer a few different questions. The first question we are looking to answer is: What year or timeframe had the most amount of fatalitites from aircraft crashes? The second question is: What type and make of aircraft has the most recorded crashes? The third question that we are researching is: Where do aircraft crash the most location wise?
 
--The motivation behind these questions are simple, these questions are asked in order to further establish trends in which we can examine them further and potentially determine preventative measures and increase knowledge on aircraft crashes. With how long the timeframe of the data spans, we wanted to narrow down the questions to provide the most relevant data for us to examine. We determined that these questions were important because of how they interacted with each other and the roles they play in aircraft crashes.
+The motivation behind these questions are simple, these questions are asked in order to further establish trends in which we can examine them further and potentially determine preventative measures and increase knowledge on aircraft crashes. With how long the timeframe of the data spans, we wanted to narrow down the questions to provide the most relevant data for us to examine. We determined that these questions were important because of how they interacted with each other and the roles they play in aircraft crashes.
 
 ### Related Work  
 
