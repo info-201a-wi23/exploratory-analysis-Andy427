@@ -1,8 +1,9 @@
 library("ggplot2")
 library("dplyr")
 
-data = read.csv("Airplane_Crashes_and_Fatalities_Since_1908.csv",
+data = read.csv("C:\\Users\\14254\\OneDrive\\Desktop\\info201\\exploratory-analysis-Andy427\\Airplane_Crashes_and_Fatalities_Since_1908.csv",
                 stringsAsFactors = FALSE)
+
 
 # In your report you must describe why you included the chart (e.g., 
 # what it attempts to seeks to express), and what information it reveals.
